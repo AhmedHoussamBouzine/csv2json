@@ -2,11 +2,6 @@
 
 This repository contains a simple Flask application that converts CSV files to JSON.
 
-## Features
-
-- Upload a CSV file and get the JSON data in the response.
-- Saves the converted JSON data as a file on the server.
-
 ## Installation
 
 ### Clone the repository
