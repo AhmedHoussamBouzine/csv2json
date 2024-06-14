@@ -6,12 +6,12 @@ This repository contains a simple Flask application that converts CSV files to J
 
 ### Clone the repository
 
-    ```sh
+    ```bash
     git clone https://github.com/AhmedHoussamBouzine/csv2json.git
     ```
 ### Install the dependencies
 
-    ```sh
+    ```bash
     pip install -r requirements.txt
     ```
 
@@ -19,7 +19,7 @@ This repository contains a simple Flask application that converts CSV files to J
 
 ### Run the application
 
-    ```sh
+    ```bash
     python3 app.py
     ```
 
@@ -27,7 +27,7 @@ This repository contains a simple Flask application that converts CSV files to J
 
 Use the following command to upload a CSV file:
 
-    ```sh
+    ```bash
     curl -X POST -F 'file=@path-to-you-csv-file' http://127.0.0.1:5000/upload
 
     ```
